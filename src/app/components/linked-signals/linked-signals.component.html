@@ -1,1 +1,18 @@
-<p>linked-signals works!</p>
+<div class="d-flex flex-column align-items-center justify-content-center">
+  <div class="reaction-picker">
+    <app-reaction-picker [reactions]="reactions()" />
+
+    <section class="buttons mt-4">
+      <button
+        class="primary"
+        (click)="reactions.set(['😡', '😠', '😐', '😊', '😍'])"
+      >
+        More Reactions
+      </button>
+
+      <button class="secondary" (click)="reactions.set(['😠', '😐', '😊'])">
+        Less Reactions
+      </button>
+    </section>
+  </div>
+</div>
