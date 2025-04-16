@@ -1,0 +1,1 @@
+import{Aa as s,Ba as o,Ia as a,ra as i}from"./chunk-C7KKR5WW.js";var n=class t{static \u0275fac=function(e){return new(e||t)};static \u0275cmp=i({type:t,selectors:[["app-linked-signals"]],decls:2,vars:0,template:function(e,p){e&1&&(s(0,"p"),a(1,"linked-signals works!"),o())},encapsulation:2})};export{n as default};
