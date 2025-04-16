@@ -8,5 +8,5 @@ import { LayoutComponent } from './core/components/layout/layout.component';
   styleUrl: './app.component.scss',
 })
 export class AppComponent {
-  title = 'angular-linked-signals';
+  title = 'Angular Linked Signals';
 }
